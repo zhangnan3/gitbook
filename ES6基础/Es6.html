@@ -1,0 +1,269 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第一章：react 技巧 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="../" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="Es6.html">
+            
+                <a href="Es6.html">
+            
+                    
+                    第一章：react 技巧
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" >
+            
+                <span>
+            
+                    
+                    []
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >第一章：react 技巧</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="&#x4EC0;&#x4E48;&#x662F;es6">&#x4EC0;&#x4E48;&#x662F;Es6</h3>
+<p>ES &#x662F; JavaScript &#x7684;&#x80CC;&#x540E;&#x7684;&#x6807;&#x51C6;&#x540D;&#x3002;ES6 &#x662F; JS &#x7684;&#x65B0;&#x6807;&#x51C6;&#xFF0C;&#x76EE;&#x524D;&#x4EBA;&#x4EEC;&#x63D0;&#x5230; ES6 &#x6307;&#x7684;&#x5C31;&#x662F;&#x201C;&#x65B0; JS&#x201D; &#x3002;</p>
+<p>ES6 &#x7684;&#x529F;&#x80FD;&#xFF0C;&#x6D4F;&#x89C8;&#x5668;&#x53EA;&#x80FD;&#x5927;&#x90E8;&#x5206;&#x652F;&#x6301;&#xFF0C;&#x6240;&#x4EE5;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x5728;&#x5F00;&#x53D1;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x7528;&#x5230; ES6 &#xFF0C;&#x90A3;&#x4E48;&#x4E00;&#x5B9A;&#x6D89;&#x53CA;&#x5230;&#x4E00;&#x4E2A;&#x7F16;&#x8BD1;&#x7684;&#x6982;&#x5FF5;&#x3002;&#x66F4;&#x51C6;&#x786E;&#x7684;&#x8BF4;&#x6CD5;&#x53EB;&#x201D;&#x9884;&#x5904;&#x7406;&#x201C;&#x6216;&#x8005;&#x201D;&#x201D;&#x8F6C;&#x8BD1;&#x201C;&#xFF08;&#x56E0;&#x4E3A;&#x6574;&#x4E2A;&#x8FC7;&#x7A0B;&#x5C31;&#x662F;&#x628A; ES6 &#x8F6C;&#x6362;&#x4E3A;&#x8001; JS &#x8BED;&#x6CD5;&#xFF0C;&#x4FDD;&#x8BC1;&#x6D4F;&#x89C8;&#x5668;&#x53EF;&#x4EE5;&#x652F;&#x6301;&#xFF09;&#x3002;</p>
+<p>ES6 &#x5C31;&#x662F;&#x4E00;&#x5957;&#x65B0; JS &#x8BED;&#x6CD5;&#x7684;&#x603B;&#x548C;</p>
+<p>&#x5177;&#x4F53;&#x6D89;&#x53CA;&#x5230;&#x54EA;&#x4E9B;&#x529F;&#x80FD;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#xFF1A;</p>
+<p><a href="http://es6.ruanyifeng.com/" target="_blank">http://es6.ruanyifeng.com/</a></p>
+<p>&#x5982;&#x4F55;&#x201D;&#x8F6C;&#x8BD1;&#x201C; ES6 &#xFF1F;</p>
+<p>&#x4F7F;&#x7528; Babel &#x6765;&#x8FDB;&#x884C;&#x8F6C;&#x8BD1;&#x3002;&#x53EF;&#x4EE5;&#x5230; <a href="https://babeljs.io/" target="_blank">https://babeljs.io/</a> &#x53BB;&#x8BD5;&#x7528;&#x4E00;&#x4E0B; babel &#x3002;&#x4F46;&#x662F;&#xFF0C;&#x5B9E;&#x9645;&#x5F00;&#x53D1;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x90FD;&#x662F;&#x5728;&#x547D;&#x4EE4;&#x884C;&#x4E2D;&#x53BB;&#x81EA;&#x52A8;&#x5316;&#x7684;&#x4F7F;&#x7528; Babel &#x3002;</p>
+<p>Babel &#x7684;&#x5B98;&#x7F51;&#x5728;&#xFF1A;<a href="http://babeljs.io/" target="_blank">http://babeljs.io/</a> &#x3002;&#x5B98;&#x7F51;&#x4E0A;&#x5BF9;&#x5B83;&#x7684;&#x63CF;&#x8FF0;&#x662F;&#xFF1A;</p>
+<p>&#x4E00;&#x4E2A; Javascript &#x7684;&#x7F16;&#x8BD1;&#x5668;( compiler )</p>
+<p>&#x6211;&#x4EEC;&#x77E5;&#x9053;&#x7684; create-react-app &#x8FD9;&#x4E2A;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF0C;&#x5176;&#x4E2D;&#x5C31;&#x96C6;&#x6210;&#x4E86; Babel &#x3002;</p>
+<p>&#x4E3A;&#x4F55;&#x8981;&#x4F7F;&#x7528; ES6 &#xFF1F;</p>
+<p>&#x7B2C;&#x4E00;&#xFF0C;&#x597D;&#x7528;&#x3002;</p>
+<p>&#x7B2C;&#x4E8C;&#xFF0C;&#x5927;&#x5BB6;&#x90FD;&#x7528;&#x3002;&#x4F60;&#x4E0D;&#x7528;&#x4F60;&#x5C31; OUT &#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Introduction">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第一章：react 技巧","level":"1.2","depth":1,"next":{"title":"[]","level":"1.2.1","depth":2,"ref":"","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ES6基础/Es6.md","mtime":"2017-09-05T09:06:34.563Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-18T14:55:22.861Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
